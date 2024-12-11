@@ -119,3 +119,158 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+
+// RESPONSIVIDADE
+
+@media screen and (max-width: 1200px) {
+    #headline{
+        width: 40%;
+
+        
+        h2{
+            font-size: 1.8rem;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+        button{
+            width: 180px;
+        }
+    }
+    .logo-title{
+        font-size: 1.1rem;
+    }
+    #header_img{
+        width: 350px;
+    }
+
+
+    ///////////////////////////
+
+
+    #timer{
+        h2{
+            font-size: 1.8rem;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+        h3{
+            font-size: 3rem;
+        }
+    }
+
+
+    ///////////////////////////
+
+
+    #content_cta img{
+        width: 300px;
+    }
+    #cta{
+        width: 40%;
+
+        h2{
+            font-size: 1.8rem;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+        button{
+            width: 180px;
+        }
+    }
+
+
+    ///////////////////////////
+
+
+    footer{
+        #social_media{
+            width: 40%;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #header{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        padding: 70px 8%;
+        gap: 126px;
+    }
+    #headline{
+        width: 100%;
+        align-items: center;
+    }
+
+
+    ///////////////////////////
+
+
+    #timer{
+       padding: 80px 8%;
+
+       p{
+        width: 100%;
+       }
+
+       img{
+        width: 350px;
+       }
+       h3{
+        font-size: 40px;
+       }
+    }
+
+
+    ///////////////////////////
+
+
+    #content_cta{
+        flex-direction: column;
+        padding: 80px 8%;
+        gap: 48px;
+
+        img{
+            width: 350px;
+        }
+    }
+    #cta{
+        text-align: center;
+        align-items: center;
+        width: 100%;
+
+        h2{
+            width: 100%;
+        }
+    }
+
+
+    ///////////////////////////
+    
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 32px;
+        padding: 48px 8%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #header_img, #timer img, #content_cta img{
+        width: 250px;
+    }
+    #timer h2{
+        font-size: 20px;
+    }
+    #timer p{
+        font-size: 16px;
+    }
+    #timer h3{
+        font-size: 30px;
+    }
+}
